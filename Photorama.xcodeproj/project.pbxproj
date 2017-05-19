@@ -17,6 +17,7 @@
 		7655E01D1ECE0AED002730CC /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7655E01C1ECE0AED002730CC /* FlickrAPI.swift */; };
 		7655E01F1ECE0ED8002730CC /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7655E01E1ECE0ED8002730CC /* PhotoStore.swift */; };
 		7655E0211ECE1213002730CC /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7655E0201ECE1213002730CC /* Photo.swift */; };
+		7655E0231ECF09C1002730CC /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7655E0221ECF09C1002730CC /* PhotoDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7655E01C1ECE0AED002730CC /* FlickrAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
 		7655E01E1ECE0ED8002730CC /* PhotoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 		7655E0201ECE1213002730CC /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		7655E0221ECF09C1002730CC /* PhotoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				7655E01C1ECE0AED002730CC /* FlickrAPI.swift */,
 				7655E01E1ECE0ED8002730CC /* PhotoStore.swift */,
 				7655DFF01ECDB81C002730CC /* Main.storyboard */,
+				7655E0221ECF09C1002730CC /* PhotoDataSource.swift */,
 				7655DFF31ECDB81C002730CC /* Assets.xcassets */,
 				7655DFF51ECDB81C002730CC /* LaunchScreen.storyboard */,
 				7655DFF81ECDB81C002730CC /* Info.plist */,
@@ -271,6 +274,7 @@
 				7655E01D1ECE0AED002730CC /* FlickrAPI.swift in Sources */,
 				7655E01B1ECDB875002730CC /* PhotosViewController.swift in Sources */,
 				7655E01F1ECE0ED8002730CC /* PhotoStore.swift in Sources */,
+				7655E0231ECF09C1002730CC /* PhotoDataSource.swift in Sources */,
 				7655DFED1ECDB81C002730CC /* AppDelegate.swift in Sources */,
 				7655E0211ECE1213002730CC /* Photo.swift in Sources */,
 			);
