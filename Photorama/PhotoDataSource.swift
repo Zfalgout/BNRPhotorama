@@ -21,6 +21,19 @@ class PhotoDataSource: NSObject, UICollectionViewDataSource{
         let identifier = "PhotoCollectionViewCell"
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as! PhotoCollectionViewCell
         
+        let photo = photos[indexPath.row]
+        cell.photoDescription = photo.title
+        
         return cell
+    }
+    
+    //Chapter 24 code
+    override var accessibilityTraits: UIAccessibilityTraits {
+        get {
+            return super.accessibilityTraits | UIAccessibilityTraitImage
+        }
+        set {
+            //Ignore attempts to set
+        }
     }
 }
